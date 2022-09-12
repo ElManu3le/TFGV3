@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="247.0" prefWidth="451.0" styleClass="fondoMenuv2" stylesheets="@../s/styless.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="Controladores.EliminarProvController">
+   <children>
+      <Label alignment="CENTER" layoutX="66.0" layoutY="64.0" prefHeight="21.0" prefWidth="319.0" style="-fx-text-fill: #8758FF; -fx-background-color: #F2F2F2; -fx-background-radius: 80;" text="¿QUE PROVEEDOR NECESITA ELIMINAR?">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="provDeleteTXT" alignment="CENTER" layoutX="93.0" layoutY="111.0" prefHeight="25.0" prefWidth="261.0">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton layoutX="176.0" layoutY="163.0" onAction="#delete" style="-fx-text-fill: #EB1D36;" text="ELIMINAR">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

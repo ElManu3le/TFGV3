@@ -1,0 +1,57 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 05-sep-2022, 20:23:19
+    Author     : elman
+*/
+
+.fondoMenu{
+    -fx-background-color: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.fondoMenuv2{
+    -fx-background-color: linear-gradient(to right top, #09b7a7, #00c899, #37d77e, #6fe357, #a8eb12);
+}
+
+
+.fondoeliminar{
+    -fx-background-color: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.fondoLogin{
+    -fx-background-color: linear-gradient(to right bottom, #e30c86, #d01a99, #b82aaa, #9a39b8, #7344c2, #5e44c6, #4344ca, #0045cd, #003dcf, #0033d1, #0727d3, #1717d3);
+}
+
+.btnAgregarIn{
+    
+    -fx-background-color: linear-gradient(to right, #0de720, #00ca30, #00ad36, #009138, #047636);
+    
+}
+
+.btnEliminarIn{
+    
+    -fx-background-color: linear-gradient(to right, #e70d20, #e2003b, #d80050, #ca0063, #b70772);
+    
+}
+
+.btnEditar{
+    
+    -fx-background-color: #C0DF10
+    
+}
+
+.btnEliminar2{
+    
+    -fx-background-color: #D6195B
+    
+}
+
+.colorLetras{
+    -fx-text-fill: #8758FF;
+}
+
+.colorLetrasTitulo{
+    -fx-back-ground-color:  linear-gradient(to left, #ce0dbb, #be0bb4, #ae09ad, #9e08a6, #8e069e);
+}

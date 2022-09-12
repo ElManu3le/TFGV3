@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="276.0" prefWidth="479.0" styleClass="fondoMenuv2" stylesheets="@../s/styless.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="Controladores.EliminarWorkerController">
+   <children>
+      <Label alignment="CENTER" layoutX="139.0" layoutY="79.0" prefHeight="41.0" prefWidth="201.0" style="-fx-text-fill: #8758FF; -fx-background-color: #F2F2F2; -fx-background-radius: 80;" text="¿EMPLEADO A ELIMINAR?">
+         <font>
+            <Font name="Comic Sans MS Bold" size="12.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="workerDeleteTXT" layoutX="139.0" layoutY="146.0" prefHeight="25.0" prefWidth="201.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton layoutX="170.0" layoutY="207.0" onAction="#delete" prefHeight="25.0" prefWidth="127.0" style="-fx-text-fill: #A460ED; -fx-background-color: #FFF5E4; -fx-background-radius: 80;" text="ELIMINAR">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

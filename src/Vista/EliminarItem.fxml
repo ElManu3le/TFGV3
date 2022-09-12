@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="270.0" prefWidth="452.0" styleClass="fondoMenuv2" stylesheets="@../s/styless.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladores.EliminarItemController">
+   <children>
+      <JFXTextField fx:id="almacenDeleteTXT" layoutX="112.0" layoutY="135.0" prefHeight="25.0" prefWidth="247.0" unFocusColor="#221e1e">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXTextField>
+      <Label alignment="CENTER" layoutX="91.0" layoutY="91.0" prefHeight="30.0" prefWidth="289.0" style="-fx-text-fill: #8758FF; -fx-background-color: #F2F2F2; -fx-background-radius: 78;" text="CODIGO DEL ALMACEN A ELIMINAR">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="185.0" layoutY="188.0" onAction="#delete" prefHeight="30.0" prefWidth="101.0" style="-fx-text-fill: #8B008B;" text="ELIMINAR">
+         
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
